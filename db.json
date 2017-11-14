@@ -1,0 +1,121 @@
+{
+  "blogsData": [
+    {
+      "id": 1,
+      "name": "Science",
+      "desc": "science",
+      "tag": "SCIENCE",
+      "blogC": "qwertyuiopasdfghjklzxcvbnm"
+    },
+    {
+      "name": "Iphone X",
+      "desc": "APPLE",
+      "tag": "TECHNOLOGY",
+      "blogC": "asdasdas",
+      "id": 2
+    },
+    {
+      "name": "Dominos",
+      "desc": "Pizza",
+      "tag": "FOOD",
+      "blogC": "ala;d;alsdasd",
+      "id": 3
+    },
+    {
+      "name": "Table Tennis",
+      "desc": "Ping Pong",
+      "tag": "SPORTS",
+      "blogC": "asdasdlkasd",
+      "id": 4
+    },
+    {
+      "name": "Bugatti",
+      "desc": "Fastest Car",
+      "tag": "CARS",
+      "blogC": "sdadsasd",
+      "id": 5
+    },
+    {
+      "name": "Graphcore raises $50M amid a flurry of AI chip activity",
+      "desc": "a $30M Series B led by Atomico in July",
+      "tag": "TECHNOLOGY",
+      "blogC": "While some of the largest chip manufacturers are looking to shift their focus onto the GPU for their biggest machine learnings, there’s a blooming ecosystem of new chip startups looking to rethink the way processing for AI works\n\nThat includes a European-based startup called Graphcore, which said today that it has raised $50 million in new financing led by Sequoia Capital — following a $30M Series B led by Atomico in July.\n\nGraphcore, like some other startups, is looking to rethink the way AI computation works at an actual substrate level. There isn’t a product on the market yet — CEO Nigel Toon says that’s on track for Q1 next year for early-access customers. But it’s been an area that’s been tantalizing enough to convince companies like Google and Apple to look to design their own GPU technology to tap this kind of streamlined processing for operations like computer vision, language recognition, and others centered around machine learning.\n\n“What this really does is allows us to scale,” Toon said. “We’re already working on a roadmap, we can tack on and drive the development of those really quickly. We can look at some other areas, we can expand so we can support more customers more quickly. I think it really allows us to fundamentally speed up.”\n\nGraphcore’s core product is what the company is calling the “intelligence processor unit,” or IPU. But that’s more or less a way of saying that it’s a new breed of processor that’s designed to do the kinds of rapid-fire calculations that machine learning requires, running through thousands or millions of weights in a minimal amount of time with as little power consumption as possible. It’s something that a GPU is good at, but for Tore and some other startups, it’s an area that is ripe for re-thinking and specialization.",
+      "id": 6
+    },
+    {
+      "name": "Pasta",
+      "desc": "Italian food",
+      "tag": "FOOD",
+      "blogC": "asdjkasdjasd",
+      "id": 7
+    },
+    {
+      "name": "Porsche 911",
+      "desc": "car",
+      "tag": "CARS",
+      "blogC": "lasjdlkads",
+      "id": 8
+    },
+    {
+      "name": "Virat Kohli",
+      "desc": "cricketer",
+      "tag": "SPORTS",
+      "blogC": "asdlalds",
+      "id": 9
+    },
+    {
+      "name": "Ronaldo",
+      "desc": "football",
+      "tag": "SPORTS",
+      "blogC": "asldkklasd",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Aayush",
+      "password": "1234"
+    },
+    {
+      "username": "shubham",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "username": "pulkit",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "username": "priyankar",
+      "password": "12354",
+      "id": 4
+    },
+    {
+      "username": "munawaar",
+      "password": "1123",
+      "id": 5
+    },
+    {
+      "username": "aman",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "username": "prabhat",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "username": "shivam",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "username": "naman",
+      "password": "1234",
+      "id": 9
+    }
+  ]
+}

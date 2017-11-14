@@ -1,0 +1,15 @@
+.right{
+  float: right;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.left{
+  margin-top: 5%;
+  margin-left:10%;
+  float: left;
+}
+.borderclr{
+  padding: 3%;
+  border-radius: 5px;
+  border: 1px solid #218838;
+}
