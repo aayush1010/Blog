@@ -10,15 +10,6 @@ import { IBlogInterface } from './blog.Interface';
   styleUrls: ['./blog-list.component.css']
 })
 export class BlogListComponent implements OnInit{
-  ngOnInit(){
-    this.blogListService.loadData()
-      .subscribe((data)=>{
-      console.log(data);
-        this.blogs = data;
-        this.searchedBlogs = this.blogs;
-        //console.log(this.blogs);
-      })
-  }
   _listFilter: string;
   blogs : IBlogInterface[];
   searchedBlogs: IBlogInterface[];
@@ -28,6 +19,15 @@ export class BlogListComponent implements OnInit{
   set listFilter(value: string){
     this._listFilter = value;
     this.searchedBlogs = this.listFilter ? this.performFilter(this.listFilter): this.blogs;
+  }
+  ngOnInit(){
+    this.blogListService.loadData()
+      .subscribe((data)=>{
+      console.log(data);
+        this.blogs = data;
+        this.searchedBlogs = this.blogs;
+        //console.log(this.blogs);
+      })
   }
 
   constructor(private blogListService : BloglistService, private router: Router) {

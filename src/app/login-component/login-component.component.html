@@ -1,4 +1,15 @@
+<div class="container jumbotron" style="width: 100%">
+  <h1 class="display-3" style="text-align: center">Your Favourite Blogs Are Here</h1>
+</div>
 
+<div *ngIf="show">
+  <br>
+  <br>
+</div>
+<div *ngIf="lognotsuccess">
+  <br>
+  <br>
+</div>
 <div class="alert alert-success" *ngIf="show">
   <strong>Success!</strong> You are now Registered
 </div>

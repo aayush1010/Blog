@@ -11,7 +11,17 @@ import {IBlogInterface} from "../blog-list/blog.Interface";
 })
 export class FilteredListByTagsComponent implements OnInit {
   private tag;
+  _listFilter: string;
   blogs : IBlogInterface[];
+  searchedBlogs: IBlogInterface[];
+  get listFilter() : string{
+    return this._listFilter;
+  }
+  set listFilter(value: string){
+    this._listFilter = value;
+    this.searchedBlogs = this.listFilter ? this.performFilter(this.listFilter): this.blogs;
+  }
+
   constructor(private route: ActivatedRoute,
               private router: Router, private blogListService: BloglistService) { }
 
@@ -23,9 +33,15 @@ export class FilteredListByTagsComponent implements OnInit {
     this.blogListService.filterData(this.tag.tag.toUpperCase())
       .subscribe((data)=>{
         this.blogs = data;
+        this.searchedBlogs = this.blogs;
+        console.log(this.searchedBlogs);
         console.log(this.blogs);
-      })
+      });
+  }
+  performFilter(filterBy: string): IBlogInterface[]{
+    filterBy = filterBy.toLocaleLowerCase();
+    return this.blogs.filter((blog : IBlogInterface) =>
+      blog.name.toLocaleLowerCase().indexOf(filterBy) !== -1);
   }
 
-
- }
+}

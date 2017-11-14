@@ -11,8 +11,16 @@ export class BloglistService {
   constructor(private http: Http) { }
 
   filterData(tag){
-    return this.http.get('http://localhost:3000/blogsData?tag='+tag+'&_sort=id&_order=desc')
-      .map(res => res.json())
+    var data=localStorage.getItem('logindata');
+    let userid = JSON.parse(data).loginnedId;
+    if(tag === 'MYBLOGS'){
+      return this.http.get('http://localhost:3000/blogsData?userId='+userid+'&_sort=id&_order=desc')
+        .map(res => res.json());
+    }
+    else {
+      return this.http.get('http://localhost:3000/blogsData?tag=' + tag + '&_sort=id&_order=desc')
+        .map(res => res.json());
+    }
   }
   loadData() {
     return this.http.get(BASE_URL)

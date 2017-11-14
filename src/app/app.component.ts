@@ -13,7 +13,7 @@ export class AppComponent{
   currentBlog :Object;
   searchedTag : string;
   title: string = 'My Blog App';
-  filterByList: string[] = [ "Technology", "Science","Food",  "Sports","Cars"];
+  filterByList: string[] = ["MyBlogs", "Technology", "Science","Food",  "Sports","Cars"];
   constructor(private router: Router){}
  //@ViewChild(BlogListComponent) private child: BlogListComponent;
   //filterByTags(listitem: string){

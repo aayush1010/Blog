@@ -4,13 +4,16 @@
 <br>
 
 <div class="collection">
-  <div class="card" *ngFor="let blog of blogs " style="margin: 20px">
+  <div class="card" *ngFor="let blog of searchedBlogs " style="margin: 20px">
     <div class="card-header">
       <h3>{{blog.name}}</h3>
     </div>
     <div class="card-body">
       <p class="card-text">{{blog.blogC}}</p>
     </div>
-
+      <div *ngIf="tag.tag === 'MyBlogs'" class="card-footer">
+      <button type="submit" class="btn btn-primary">Edit</button>
+      <button type="submit" class="btn btn-primary">Delete</button>
+    </div>
   </div>
 </div>

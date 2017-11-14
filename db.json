@@ -69,6 +69,83 @@
       "tag": "SPORTS",
       "blogC": "asldkklasd",
       "id": 10
+    },
+    {
+      "name": "Big Bang Theory",
+      "desc": "science",
+      "tag": "SCIENCE",
+      "blogC": "oaksdkasd",
+      "id": 11
+    },
+    {
+      "name": "Samsung S8",
+      "desc": "phone",
+      "tag": "TECHNOLOGY",
+      "blogC": "kjadk",
+      "id": 12
+    },
+    {
+      "name": "Lamborghini",
+      "desc": "car",
+      "tag": "CARS",
+      "blogC": "adsasd",
+      "id": 13
+    },
+    {
+      "name": "Moto",
+      "desc": "phone",
+      "tag": "TECHNOLOGY",
+      "blogC": "lasdlads",
+      "userId": 6,
+      "id": 14
+    },
+    {
+      "name": "Burger",
+      "desc": "mcd",
+      "tag": "FOOD",
+      "blogC": "jkaskjd",
+      "userId": 6,
+      "id": 15
+    },
+    {
+      "name": "Smart Watch",
+      "desc": "phone",
+      "tag": "TECHNOLOGY",
+      "blogC": "lkadlad",
+      "userId": 6,
+      "id": 16
+    },
+    {
+      "name": "Rajma",
+      "desc": "food",
+      "tag": "FOOD",
+      "blogC": "alksdlasd",
+      "userId": 6,
+      "id": 17
+    },
+    {
+      "name": "Gravity",
+      "desc": "science",
+      "tag": "SCIENCE",
+      "blogC": "lkdslafd",
+      "userId": 10,
+      "id": 18
+    },
+    {
+      "name": "Food Panda",
+      "desc": "website",
+      "tag": "TECHNOLOGY",
+      "blogC": "akjsdlads",
+      "userId": 6,
+      "id": 19
+    },
+    {
+      "name": "Watch",
+      "desc": "tech",
+      "tag": "TECHNOLOGY",
+      "blogC": "kajdslkasd",
+      "userId": 13,
+      "id": 20
     }
   ],
   "users": [
@@ -116,6 +193,26 @@
       "username": "naman",
       "password": "1234",
       "id": 9
+    },
+    {
+      "username": "aayush",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "username": "aayush1010",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "username": "lllll",
+      "password": "1111",
+      "id": 12
+    },
+    {
+      "username": "mudit",
+      "password": "1234",
+      "id": 13
     }
   ]
 }

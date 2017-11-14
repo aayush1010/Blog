@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Output, EventEmitter} from '@angular/core';
 import {Router} from "@angular/router";
 import {LoginService} from "../login.service";
 
@@ -13,6 +13,7 @@ export class LoginComponentComponent implements OnInit {
   constructor(private request: LoginService, private router: Router) { }
   users : Object[];
   show : boolean = false;
+  loginUserId : number;
   lognotsuccess : boolean = false;
   ngOnInit() {
     this.request.loadData()
@@ -20,6 +21,7 @@ export class LoginComponentComponent implements OnInit {
         this.users = data;
       })
   }
+  @Output() messageEvent = new EventEmitter<string>();
   addUser(username, password) {
     let newuser = {
       username: username,
@@ -31,6 +33,10 @@ export class LoginComponentComponent implements OnInit {
       });
     this.show = true;
   }
+  sendData(id: number){
+    this.loginUserId = id;
+
+  }
   checkLogin(username, password) {
     this.request.LoginAccess(username, password)
       .subscribe(data=> {
@@ -41,8 +47,11 @@ export class LoginComponentComponent implements OnInit {
           password = '';
           this.router.navigateByUrl('/login');
         } else {
+          console.log(data.id);
+          this.sendData(data.id);
           console.log('login success');
-          this.router.navigateByUrl('/home');
+          localStorage.setItem('logindata',JSON.stringify({loginnedId:data.id}));
+          this.router.navigateByUrl('/home', data.id);
         }
       });
   }
