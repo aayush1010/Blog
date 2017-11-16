@@ -1,4 +1,5 @@
-<div class="breatheVertical">
+<div class="breatheVertical" >
+
   <input [(ngModel)] = 'listFilter' class="inutBox" type="text" placeholder="Search A Blog">
 </div>
 <br>
@@ -9,6 +10,9 @@
     </div>
     <div class="card-body">
       <p class="card-text">{{blog.blogC}}</p>
+    </div>
+    <div class="card-footer text-muted">
+      PostedBy : {{blog.postedBy}}
     </div>
   </div>
 </div>

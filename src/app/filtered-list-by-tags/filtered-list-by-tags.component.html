@@ -12,8 +12,8 @@
       <p class="card-text">{{blog.blogC}}</p>
     </div>
       <div *ngIf="tag.tag === 'MyBlogs'" class="card-footer">
-      <button type="submit" class="btn btn-primary">Edit</button>
-      <button type="submit" class="btn btn-primary">Delete</button>
+      <button type="submit"  [routerLink] = "['/edit']" (click) = "idForUpdate(blog.id)" class="btn btn-primary">Edit</button>
+      <button type="submit" class="btn btn-primary" (click) = "deleteIt(blog.id)">Delete</button>
     </div>
   </div>
 </div>

@@ -9,11 +9,12 @@
     </ul>
 
       <button [routerLink] = "['/addBlog']" class="btn btn-outline-success my-2 my-sm-0 " type="submit">Write A blog</button>
-    <button [routerLink] = "['/login']" class="btn btn-outline-danger btnbreatheLeft my-2 my-sm-0" type="submit">Log out</button>
+    <button [routerLink] = "['/login']" (click)="logout()" class="btn btn-outline-danger btnbreatheLeft my-2 my-sm-0" type="submit">Log out</button>
   </div>
 </nav>
 
 
 <div class="container breatheVertical">
+
   <router-outlet></router-outlet>
 </div>

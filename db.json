@@ -100,44 +100,12 @@
       "id": 14
     },
     {
-      "name": "Burger",
-      "desc": "mcd",
-      "tag": "FOOD",
-      "blogC": "jkaskjd",
-      "userId": 6,
-      "id": 15
-    },
-    {
-      "name": "Smart Watch",
+      "name": "Smart Watchasas",
       "desc": "phone",
       "tag": "TECHNOLOGY",
       "blogC": "lkadlad",
       "userId": 6,
       "id": 16
-    },
-    {
-      "name": "Rajma",
-      "desc": "food",
-      "tag": "FOOD",
-      "blogC": "alksdlasd",
-      "userId": 6,
-      "id": 17
-    },
-    {
-      "name": "Gravity",
-      "desc": "science",
-      "tag": "SCIENCE",
-      "blogC": "lkdslafd",
-      "userId": 10,
-      "id": 18
-    },
-    {
-      "name": "Food Panda",
-      "desc": "website",
-      "tag": "TECHNOLOGY",
-      "blogC": "akjsdlads",
-      "userId": 6,
-      "id": 19
     },
     {
       "name": "Watch",
@@ -146,6 +114,170 @@
       "blogC": "kajdslkasd",
       "userId": 13,
       "id": 20
+    },
+    {
+      "name": "Chai",
+      "desc": "chai",
+      "tag": "FOOD",
+      "blogC": "hjajsdjasd",
+      "userId": 6,
+      "id": 21
+    },
+    {
+      "name": "qwertyu",
+      "desc": "asdfghj",
+      "tag": "CARS",
+      "blogC": "fvbgn",
+      "userId": 6,
+      "id": 22
+    },
+    {
+      "name": "sadvfgbnh",
+      "desc": "defrtghyju",
+      "tag": "FOOD",
+      "blogC": "skfdosdf",
+      "userId": 6,
+      "id": 23
+    },
+    {
+      "name": "asdsad",
+      "desc": "sdfd",
+      "tag": "CARS",
+      "blogC": "da",
+      "userId": 6,
+      "id": 24
+    },
+    {
+      "name": "asd",
+      "desc": "lasdlads",
+      "tag": "FOOD",
+      "blogC": "asdasd",
+      "userId": 6,
+      "id": 25
+    },
+    {
+      "name": "adsad",
+      "desc": ",msad,",
+      "tag": "FOOD",
+      "blogC": "asda",
+      "userId": 6,
+      "id": 26
+    },
+    {
+      "name": "ads",
+      "desc": "slll",
+      "tag": "FOOD",
+      "blogC": "dsfs",
+      "userId": 6,
+      "id": 27
+    },
+    {
+      "name": "asdmj",
+      "desc": "kkkk",
+      "tag": "SCIENCE",
+      "blogC": "sdkf",
+      "userId": 6,
+      "id": 28
+    },
+    {
+      "name": "asdds",
+      "desc": "fldfll",
+      "tag": "SPORTS",
+      "blogC": "dsfdfs",
+      "userId": 6,
+      "id": 29
+    },
+    {
+      "name": "qppqp",
+      "desc": "oqo",
+      "tag": "SPORTS",
+      "blogC": "sdf",
+      "userId": 6,
+      "id": 30
+    },
+    {
+      "name": "asld",
+      "desc": "kdsk",
+      "tag": "TECHNOLOGY",
+      "blogC": "skd",
+      "userId": 6,
+      "id": 31
+    },
+    {
+      "name": "qwertyui",
+      "desc": "asdfghj",
+      "tag": "TECHNOLOGY",
+      "blogC": "sad",
+      "userId": 6,
+      "id": 32
+    },
+    {
+      "name": "a",
+      "desc": "a",
+      "tag": "SCIENCE",
+      "blogC": "a",
+      "userId": 6,
+      "id": 33
+    },
+    {
+      "name": "a",
+      "desc": "sad",
+      "tag": "SCIENCE",
+      "blogC": "asd",
+      "userId": 6,
+      "id": 34
+    },
+    {
+      "name": "23456",
+      "desc": "ll",
+      "tag": "SCIENCE",
+      "blogC": "sd",
+      "userId": 6,
+      "id": 35
+    },
+    {
+      "name": "qe",
+      "desc": "sd",
+      "tag": "SCIENCE",
+      "blogC": "asd",
+      "userId": 6,
+      "id": 36
+    },
+    {
+      "name": "piuy",
+      "desc": "adk",
+      "tag": "TECHNOLOGY",
+      "blogC": "sfd",
+      "userId": 10,
+      "postedBy": "aayush",
+      "id": 43
+    },
+    {
+      "name": "qwertyu",
+      "desc": "cdvfgbnh",
+      "tag": "CARS",
+      "blogC": "ads",
+      "userId": 14,
+      "postedBy": "munna",
+      "id": 44
+    },
+    {
+      "name": "as",
+      "desc": "asd",
+      "tag": "SCIENCE",
+      "blogC": "sad",
+      "userId": 14,
+      "postedBy": "munna",
+      "id": 45
+    },
+    {
+      "name": "new",
+      "desc": "new",
+      "tag": "SCIENCE",
+      "blogC": "kasd",
+      "userId": 14,
+      "postedBy": "munna",
+      "id": 46
     }
   ],
   "users": [
@@ -213,6 +345,11 @@
       "username": "mudit",
       "password": "1234",
       "id": 13
+    },
+    {
+      "username": "munna",
+      "password": "1111",
+      "id": 14
     }
   ]
 }

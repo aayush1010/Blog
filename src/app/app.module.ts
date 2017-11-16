@@ -28,6 +28,7 @@ import {LoginService} from "./login.service";
     RouterModule.forRoot([
       {path: 'login', component: LoginComponentComponent},
       {path: 'home', component: BlogListComponent},
+      {path: 'edit', component: AddNewBlogComponent},
       {path: 'filter/:tag', component: FilteredListByTagsComponent},
       {path: 'addBlog', component: AddNewBlogComponent},
       {path: '', redirectTo: 'login', pathMatch: 'full'},

@@ -17,6 +17,13 @@ export class LoginService {
     return this.http.get(BASE_URL)
       .map(res => res.json())
   }
+
+  getUserById(id){
+
+    return this.http.get(BASE_URL+"?id="+id)
+      .map(res => res.json());
+  }
+
   LoginAccess(username, password) {
     return this.http.get(BASE_URL).map((res)=>
     {  

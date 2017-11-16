@@ -2,6 +2,7 @@ import {Component, OnInit, Input, OnChanges} from '@angular/core';
 import {AddNewBlogComponent} from "../add-new-blog/add-new-blog.component";
 import {Router} from "@angular/router";
 import { BloglistService } from '../bloglist.service';
+import { LoginService} from "../login.service";
 import { IBlogInterface } from './blog.Interface';
 
 @Component({
@@ -26,6 +27,7 @@ export class BlogListComponent implements OnInit{
       console.log(data);
         this.blogs = data;
         this.searchedBlogs = this.blogs;
+        console.log(this.blogs)
         //console.log(this.blogs);
       })
   }

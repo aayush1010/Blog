@@ -10,11 +10,15 @@ import {BlogListComponent} from "./blog-list/blog-list.component";
 
 })
 export class AppComponent{
+
   currentBlog :Object;
   searchedTag : string;
   title: string = 'My Blog App';
   filterByList: string[] = ["MyBlogs", "Technology", "Science","Food",  "Sports","Cars"];
   constructor(private router: Router){}
+  logout(){
+    localStorage.setItem('logindata', JSON.stringify({loginnedId:0}));
+  }
  //@ViewChild(BlogListComponent) private child: BlogListComponent;
   //filterByTags(listitem: string){
    // console.log(listitem);

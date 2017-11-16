@@ -38,6 +38,19 @@ export class FilteredListByTagsComponent implements OnInit {
         console.log(this.blogs);
       });
   }
+  deleteIt(id : number){
+    this.blogListService.deleteData(id)
+      .subscribe((data) => {
+        this.blogs = data;
+        this.searchedBlogs = this.blogs;
+      })
+    location.href = '/filter/MyBlogs';
+  }
+
+  idForUpdate(id : number){
+    localStorage.setItem('blogUpdateData',JSON.stringify({blogId:id}));
+  }
+
   performFilter(filterBy: string): IBlogInterface[]{
     filterBy = filterBy.toLocaleLowerCase();
     return this.blogs.filter((blog : IBlogInterface) =>

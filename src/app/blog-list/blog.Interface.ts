@@ -4,5 +4,6 @@ export interface  IBlogInterface{
   desc: string,
   tag: string,
   blogC: string
-  userId : number
+  userId : number,
+  postedBy: string
 }
