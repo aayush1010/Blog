@@ -49,7 +49,7 @@ export class AddNewBlogComponent implements OnInit {
     id: null,
     postedBy : ""
   };
-  constructor(private request: BloglistService, private reqforuser : LoginService ,private router: Router, private login: LoginComponentComponent){ }
+  constructor(private request: BloglistService, private reqforuser : LoginService ,public router: Router, private login: LoginComponentComponent){ }
   ngOnInit(){
     this.request.getData(this.blogid)
       .subscribe((data) => {

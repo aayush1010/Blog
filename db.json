@@ -278,6 +278,15 @@
       "userId": 14,
       "postedBy": "munna",
       "id": 46
+    },
+    {
+      "name": "pppppp",
+      "desc": "swxj",
+      "tag": "0",
+      "blogC": ",andlkasd",
+      "userId": 15,
+      "postedBy": "priyankar",
+      "id": 47
     }
   ],
   "users": [
@@ -350,6 +359,11 @@
       "username": "munna",
       "password": "1111",
       "id": 14
+    },
+    {
+      "username": "priyankar",
+      "password": "1234",
+      "id": 15
     }
   ]
 }
